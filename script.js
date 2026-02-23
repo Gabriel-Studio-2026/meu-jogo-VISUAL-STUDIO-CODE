@@ -1,4 +1,4 @@
-let square = document.getElementById("square");
+﻿let square = document.getElementById("square");
 let score = document.getElementById("score");
 let highScoreDisplay = document.getElementById("highScore");
 let clickSound = document.getElementById("click");
@@ -16,7 +16,7 @@ function moveSquare() {
     square.style.top = y + "px";
 }
 
-square.addEventListener("click", function() {
+square.addEventListener("click", function () {
     points++;
     score.textContent = points;
 
